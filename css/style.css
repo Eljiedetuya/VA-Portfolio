@@ -2386,7 +2386,7 @@ footer p {
 
 .coke-pos-images {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 8px;
     background: transparent;
 }
@@ -2395,6 +2395,7 @@ footer p {
     min-width: 0;
     border-radius: 10px;
     background: #ead9c5;
+    object-fit: contain;
 }
 
 
